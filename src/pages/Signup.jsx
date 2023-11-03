@@ -28,9 +28,6 @@ export default function Signup() {
       const data = await response.json();
 
       if (response.ok) {
-        // Handle successful signup
-        console.log('Signup successful:', data.message);
-        // You might redirect the user to the login page or perform other actions
         navigate("/login");
       } else {
         // Handle unsuccessful signup
