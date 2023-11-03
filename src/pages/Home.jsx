@@ -6,7 +6,7 @@ export default function Home() {
 
   return (
     <Container className="my-5 text-center">
-      <img src="https://picsum.photos/id/9/300/200" />
+      <img src="https://picsum.photos/id/6/300/200" />
       <h1 className="mt-4">Welcome Home!</h1>
       <Button variant="secondary" className="mt-3" onClick={() => navigate("/login")}>
         Go to Login
